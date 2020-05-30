@@ -1,0 +1,29 @@
+/* selector {
+    property:value;
+    anotherProperty: Value
+} */
+
+/* Hexadecimal: color: #4B0082 */
+/* RGB: color: rgb(100,0,100) */
+/* RGBA: color: rgb(100,0,100,0.5) */
+
+h1{
+    color: #ff00ff;
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid;*/
+    border: orange dashed 7px 
+}
+
+h4{
+    background:rgba(255,100,80);
+}
+
+body{
+    background: pink;
+    /* background:url(https://images.unsplash.com/photo-1506689205310-0a29c388691c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+

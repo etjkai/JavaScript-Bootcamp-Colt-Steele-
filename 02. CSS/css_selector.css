@@ -1,0 +1,59 @@
+/* Element selector - all instances of given element */
+/* ID selector - # */
+/* Class selector - . */
+
+
+li{
+    border:2px solid red
+}
+
+#special{
+    background: yellow
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+/* Star selector - every single element */
+*{
+    border:1px solid grey
+}
+
+/* Descendent selector - >=2 selectors */
+/* e.g. anchor tags descendent of li */
+li a{
+    color:green
+}
+
+/* e.g. hello class descendent of li */
+li .hello{
+    color:purple
+}
+
+/* Adjacent selector - elements that come AFTER (not nested within) an element */
+/* for ULs that come after a h4 */
+h4 + ul{
+    color: 4px solid red
+}
+
+/* attribute selector */
+/* for anchor tags with href of given value */
+a[href="http://www.google.com"]{
+    color: brown
+}
+
+/* style input with type checkbox  */
+type[type='checkbox']{
+    color: brown
+}
+
+/* nth of type */
+/* select the nth of specific element */
+li:nth-of-type(2){
+    background: purple
+}
+
+li:nth-of-type(odd){
+    background: peachpuff
+}

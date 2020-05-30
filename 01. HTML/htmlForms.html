@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Demo</title>
+</head>
+
+<body>
+    <!-- action - where form sends data to -->
+    <!-- method - what HTTP method (post/get) -->
+
+    <!-- NAME attribute will append info to query string -->
+    <!-- FOR/ID attributes will pair to the label&input to each other -->    
+
+    <!-- REQUIRED attribute -> form of presence validation -->
+
+    <form>
+        <label for="email">Email: </label>
+        <input id='email' name='email' type="email" placeholder="email" required>
+        <label for="password">Password: </label>
+        <input id='password' name='password' type="password" placeholder='Password' required>
+        <input type="submit">
+    </form>
+
+    <!-- NAME attribute to multiple radiobutton forces a selection of one -->
+    <!-- VALUE attribute: what to store the input as in dB-->
+    
+    <form action="">
+        <p>Do you prefer cats or dogs</p>
+        <label for="dogs">Dogs: </label>
+        <input name='petChoice' value='dog' id='dogs' type="radio">
+        <label for="cats">Cats: </label>
+        <input name='petChoice' value='cat' id='cats' type="radio">
+
+        <p>What's your current mood?</p>
+        <select name="mood">
+            <option value='happy'>:)</option>
+            <option value='neutral'>:|</option>
+            <option value='sad'>:(</option>
+        </select>
+
+        <textarea name="paragraph" id="" cols="50" rows="10"></textarea>
+
+
+        <button>Go!</button>
+    </form>
+
+</body>
+
+</html>

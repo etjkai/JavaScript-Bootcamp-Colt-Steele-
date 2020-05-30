@@ -1,0 +1,35 @@
+/* li inherit colour from parent element */
+/* Look in Chrome inspector to see which style is overriden */
+
+body{
+    color:red
+}
+
+ul{
+    color:blue
+}
+
+p{
+    color:green
+}
+
+li{
+    color:orange
+}
+
+.highlight{
+    color:yellow
+}
+
+#special{
+    color:pink
+}
+
+/* Specificity - multiple styles targetting an element */
+/* Whichever style is more specific to element wins */
+
+/* li{} - specificity = 1
+li a{} - specificity = 2
+.hello{} - specificity = 10
+input[type="text"] - specificity = 10
+#hello - specificity = 100 */
