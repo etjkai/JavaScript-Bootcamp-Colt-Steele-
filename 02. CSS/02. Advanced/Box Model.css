@@ -1,0 +1,9 @@
+p{
+    width: 50%;
+    border: 2px blueviolet solid;
+
+    padding-left: 20px;
+    /* top/bot=0, left/right=auto */
+    /* horizontally align with margins */
+    margin: 0 auto;
+}

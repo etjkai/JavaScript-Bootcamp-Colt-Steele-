@@ -1,0 +1,27 @@
+/* Play with font size in browser to see */
+/* Linking with google fonts */
+
+body{
+    font-family: Arial;
+    font-size:10px;
+}
+
+h1{
+    font-family: Indie Flower;
+    font-size: 5em;
+    text-align: right;
+}
+
+
+p{
+    font-family: raleway;
+    font-size:2.0em;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* double the font size of enclosing */
+span{
+    font-size: 2.0em;
+    text-decoration: underline red;
+}

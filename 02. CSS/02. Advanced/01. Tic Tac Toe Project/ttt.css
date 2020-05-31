@@ -1,0 +1,24 @@
+h1{
+    text-align:center;
+}
+
+
+td{
+    width: 100px;
+    height: 100px;
+    /* background: pink */
+}
+
+.middle{
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+.center{
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+table{
+    margin: auto
+}

@@ -1,0 +1,20 @@
+img{
+    width: 30%;
+    /* Take divs out of normal flow, and floats up and to the left */
+    float:left;
+    /* dividing residual 10% by 6 margins */
+    margin:1.66%
+}
+
+p{
+    font-family: Raleway;
+    font-size: 23px;
+    font-weight:800;
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+    text-transform: uppercase;
+    border-bottom: 2px #f1f1f1 solid;
+    padding-bottom: 20px;
+    
+}
+
